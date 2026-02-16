@@ -1,0 +1,20 @@
+{
+  "name": "inm320-assign3-css-precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "felipe1": "lite-server --baseDir=\"public\"",
+    "felipe2": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run felipe1\" \"npm run felipe2\""
+  },
+  "keywords": [],
+  "author": "Felipe Alves",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.97.3"
+  }
+}
